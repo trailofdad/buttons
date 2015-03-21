@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,700italic);
+
+//Color variables
+$type1-color: #4680FF;
+$type2-color: #28A738;
+$type3-color: #FF281D;
+$type4-color: #E8D01D;
+$type5-color: #FF6917;
+
+//border radius variables
+$type1-br: 0px;
+$type2-br: 8px;
+$type3-br: 12px;
+$type4-br: 18px;
+$type5-br: 24px;
+
+section {
+  text-align: center;
+}
+
+button{
+  font: 400 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+  font-size: 16px;
+  letter-spacing: 0.05em; 
+  text-transform: uppercase;
+  color: white;
+  border: solid 1px currentColor;
+  padding: 1em;
+  margin: 1.5em 1em;
+  font-weight: 600;
+}
+
+.type1{  
+    .pri{
+      // primary attribtes
+      color: $type1-color;
+      background-color:lighten($type1-color, 20%);
+      border: solid 1px transparent;
+      cursor: pointer;
+      &:hover {
+       // primary hover attributes
+      border: solid 1px darken($type1-color, 1%);
+      background-color: darken($type1-color, 1%);
+      color: lighten($type1-color, 20%);
+      box-shadow: 0px 1px 4px lighten($type1-color, 40%);
+      }
+    }
+    .sec{
+      // secondary attributes
+      color: $type1-color;
+      background-color: white;
+      cursor: pointer;
+      &:hover {
+        //secondary hover attributes
+      border: solid 1px darken($type1-color,1%);
+      background-color: darken($type1-color,1%);
+      color: lighten($type1-color,20%);
+      }
+    }  
+}
+
+.type2{
+    .pri{
+     // primary attribtes
+      color: $type2-color;
+      background-color:lighten($type2-color, 20%);
+      border: solid 1px transparent;
+      cursor: pointer;
+      border-radius: $type2-br;
+      &:hover {
+       // primary hover attributes
+      border: solid 1px darken($type2-color, 1%);
+      background-color: darken($type2-color, 1%);
+      color: lighten($type2-color, 20%);
+      box-shadow: 0px 1px 4px lighten($type2-color, 40%);
+    }
+    }
+    .sec{
+      // secondary attributes
+      color: $type2-color;
+      background-color: white;
+      cursor: pointer;
+      border-radius: $type2-br;
+      &:hover {
+        //secondary hover attributes
+      border: solid 1px darken($type2-color,1%);
+      background-color: darken($type2-color,1%);
+      color: lighten($type2-color,20%);
+      }
+    }  
+}
+
+.type3{  
+    .pri{
+      // primary attribtes
+      color: $type3-color;
+      background-color:lighten($type3-color, 20%);
+      border: solid 1px transparent;
+      cursor: pointer;
+      border-radius: $type3-br;
+      &:hover {
+       // primary hover attributes
+      border: solid 1px darken($type3-color, 1%);
+      background-color: darken($type3-color, 1%);
+      color: lighten($type3-color, 20%);
+      box-shadow: 0px 1px 4px lighten($type3-color, 40%);
+    }
+    }
+    .sec{
+      // secondary attributes
+      color: $type3-color;
+      background-color: white;
+      cursor: pointer;
+      border-radius: $type3-br;
+      &:hover {
+        //secondary hover attributes
+      border: solid 1px darken($type3-color,1%);
+      background-color: darken($type3-color,1%);
+      color: lighten($type3-color,20%);
+      }
+    }  
+}
+
+.type4{
+     .pri{
+      // primary attribtes
+      color: darken($type4-color, 5%);
+      background-color:lighten($type4-color, 20%);
+      border: solid 1px transparent;
+      cursor: pointer;
+      border-radius: $type4-br;
+      &:hover {
+       // primary hover attributes
+      border: solid 1px darken($type4-color, 1%);
+      background-color: darken($type4-color, 1%);
+      color: lighten($type4-color, 30%);
+      box-shadow: 0px 1px 4px lighten($type4-color, 40%);
+    }
+     }
+    .sec{
+      // secondary attributes
+      color: darken($type4-color, 5%);
+      background-color: white;
+      cursor: pointer;
+      border-radius: $type4-br;
+      &:hover {
+        //secondary hover attributes
+      border: solid 1px darken($type4-color,1%);
+      background-color: darken($type4-color,1%);
+      color: lighten($type4-color,30%);
+      }
+    }  
+}
+
+.type5{
+    .pri{
+      // primary attribtes
+      color: $type5-color;
+      background-color:lighten($type5-color, 20%);
+      border: solid 1px transparent;
+      cursor: pointer;
+      border-radius: $type5-br;
+      &:hover {
+       // primary hover attributes
+      border: solid 1px darken($type5-color, 1%);
+      background-color: darken($type5-color, 1%);
+      color: lighten($type5-color, 20%);
+      box-shadow: 0px 1px 4px lighten($type5-color, 40%);
+    }
+    }
+    .sec{
+      // secondary attributes
+      color: $type5-color;
+      background-color: white;
+      cursor: pointer;
+      border-radius: $type5-br;
+      &:hover {
+        //secondary hover attributes
+      border: solid 1px darken($type5-color,1%);
+      background-color: darken($type5-color,1%);
+      color: lighten($type5-color,20%);
+      }
+    }
+}
+// Em conversion function
+@function em($value, $context: $body) {
+	@return ($value / $context * 1em);
+}
+// Easier way to see/edit values
+$body:  20px;
+
+$h1: 67px; // 54 works nicely, as well
+$h2: 36px;
+$h3: 30px;
+$h4: 24px;
+$h5: 20px;
+$h6: 16px;
+
+body {
+  max-width: 700px;
+  margin: 3em auto;
+  padding: 0 1em;
+  font: 400 #{$body}/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+  @media ( max-width: 800px ) {
+    font-size: 16px;
+  }
+  @media ( max-width: 500px ) {
+    font-size: 14px;
+  }
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  line-height: 1;
+  
+  &:after {
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+h1 {
+  font-size: em($h1);
+  font-weight: 700;
+  
+  &:after {
+    content: ' #{$h1}'
+  }
+}
+
+h2 {
+  font-size: em($h2);
+  
+  &:after {
+    content: ' #{$h2}'
+  }
+}
