@@ -1,4 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,700italic);
+* {
+  box-sizing: border-box; }
+
 section {
   text-align: center; }
 
@@ -11,112 +14,138 @@ button {
   border: solid 1px currentColor;
   padding: 1em;
   margin: 1.5em 1em;
-  font-weight: 600; }
+  font-weight: 500; }
 
 .type1 .pri {
-  color: #4680FF;
-  background-color: #acc6ff;
+  color: white;
+  background-color: #4680FF;
   border: solid 1px transparent;
-  cursor: pointer; }
-  .type1 .pri:hover {
-    border: solid 1px #417cff;
-    background-color: #417cff;
-    color: #acc6ff;
-    box-shadow: 0px 1px 4px white; }
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type1 .pri:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type1 .pri:focus {
+    outline: 0; }
 .type1 .sec {
   color: #4680FF;
   background-color: white;
-  cursor: pointer; }
-  .type1 .sec:hover {
-    border: solid 1px #417cff;
-    background-color: #417cff;
-    color: #acc6ff; }
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type1 .sec:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type1 .sec:focus {
+    outline: 0; }
 
 .type2 .pri {
-  color: #28A738;
-  background-color: #5dd86c;
+  color: #d8f6dc;
+  background-color: #28A738;
   border: solid 1px transparent;
-  cursor: pointer;
-  border-radius: 8px; }
-  .type2 .pri:hover {
-    border: solid 1px #27a337;
-    background-color: #27a337;
-    color: #5dd86c;
-    box-shadow: 0px 1px 4px #afecb7; }
+  border-radius: 8px;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type2 .pri:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type2 .pri:focus {
+    outline: 0; }
 .type2 .sec {
   color: #28A738;
   background-color: white;
-  cursor: pointer;
-  border-radius: 8px; }
-  .type2 .sec:hover {
-    border: solid 1px #27a337;
-    background-color: #27a337;
-    color: #5dd86c; }
+  border-radius: 8px;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type2 .sec:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type2 .sec:focus {
+    outline: 0; }
 
 .type3 .pri {
-  color: #FF281D;
-  background-color: #ff8983;
+  color: white;
+  background-color: #FF281D;
   border: solid 1px transparent;
-  cursor: pointer;
-  border-radius: 12px; }
-  .type3 .pri:hover {
-    border: solid 1px #ff2318;
-    background-color: #ff2318;
-    color: #ff8983;
-    box-shadow: 0px 1px 4px #ffeae9; }
+  border-radius: 12px;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type3 .pri:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type3 .pri:focus {
+    outline: 0; }
 .type3 .sec {
   color: #FF281D;
   background-color: white;
-  cursor: pointer;
-  border-radius: 12px; }
-  .type3 .sec:hover {
-    border: solid 1px #ff2318;
-    background-color: #ff2318;
-    color: #ff8983; }
+  border-radius: 12px;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type3 .sec:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type3 .sec:focus {
+    outline: 0; }
 
 .type4 .pri {
-  color: #d6bf16;
-  background-color: #f1e37a;
+  color: #fffefb;
+  background-color: #e4cb17;
   border: solid 1px transparent;
-  cursor: pointer;
-  border-radius: 18px; }
-  .type4 .pri:hover {
-    border: solid 1px #e8cf18;
-    background-color: #e8cf18;
-    color: #f6eda8;
-    box-shadow: 0px 1px 4px #fbf7d6; }
+  border-radius: 18px;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type4 .pri:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type4 .pri:focus {
+    outline: 0; }
 .type4 .sec {
-  color: #d6bf16;
+  color: #e4cb17;
   background-color: white;
-  cursor: pointer;
-  border-radius: 18px; }
-  .type4 .sec:hover {
-    border: solid 1px #e8cf18;
-    background-color: #e8cf18;
-    color: #f6eda8; }
+  border-radius: 18px;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type4 .sec:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type4 .sec:focus {
+    outline: 0; }
 
 .type5 .pri {
-  color: #FF6917;
-  background-color: #ffab7d;
+  color: white;
+  background-color: #FF6917;
   border: solid 1px transparent;
-  cursor: pointer;
-  border-radius: 24px; }
-  .type5 .pri:hover {
-    border: solid 1px #ff6612;
-    background-color: #ff6612;
-    color: #ffab7d;
-    box-shadow: 0px 1px 4px #ffede3; }
+  border-radius: 24px;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type5 .pri:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type5 .pri:focus {
+    outline: 0; }
 .type5 .sec {
   color: #FF6917;
   background-color: white;
-  cursor: pointer;
-  border-radius: 24px; }
-  .type5 .sec:hover {
-    border: solid 1px #ff6612;
-    background-color: #ff6612;
-    color: #ffab7d; }
+  border-radius: 24px;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .type5 .sec:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s; }
+  .type5 .sec:focus {
+    outline: 0; }
 
 body {
+  background-color: #f9f9f9;
   max-width: 700px;
   margin: 3em auto;
   padding: 0 1em;
