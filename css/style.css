@@ -20,23 +20,27 @@ button {
   color: white;
   background-color: #4680FF;
   border: solid 1px transparent;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type1 .pri:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type1 .pri:focus {
     outline: 0; }
 .type1 .sec {
   color: #4680FF;
   background-color: white;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type1 .sec:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type1 .sec:focus {
     outline: 0; }
 
@@ -45,24 +49,28 @@ button {
   background-color: #28A738;
   border: solid 1px transparent;
   border-radius: 8px;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type2 .pri:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type2 .pri:focus {
     outline: 0; }
 .type2 .sec {
   color: #28A738;
   background-color: white;
   border-radius: 8px;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type2 .sec:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type2 .sec:focus {
     outline: 0; }
 
@@ -71,24 +79,28 @@ button {
   background-color: #FF281D;
   border: solid 1px transparent;
   border-radius: 12px;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type3 .pri:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type3 .pri:focus {
     outline: 0; }
 .type3 .sec {
   color: #FF281D;
   background-color: white;
   border-radius: 12px;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type3 .sec:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type3 .sec:focus {
     outline: 0; }
 
@@ -97,24 +109,28 @@ button {
   background-color: #e4cb17;
   border: solid 1px transparent;
   border-radius: 18px;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type4 .pri:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type4 .pri:focus {
     outline: 0; }
 .type4 .sec {
   color: #e4cb17;
   background-color: white;
   border-radius: 18px;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type4 .sec:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type4 .sec:focus {
     outline: 0; }
 
@@ -123,24 +139,28 @@ button {
   background-color: #FF6917;
   border: solid 1px transparent;
   border-radius: 24px;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type5 .pri:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type5 .pri:focus {
     outline: 0; }
 .type5 .sec {
   color: #FF6917;
   background-color: white;
   border-radius: 24px;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.1s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-filter: grayscale(10%); }
   .type5 .sec:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-    transition-delay: 0s; }
+    transition-delay: 0s;
+    -webkit-filter: grayscale(0%); }
   .type5 .sec:focus {
     outline: 0; }
 
