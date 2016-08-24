@@ -1,0 +1,29 @@
+.type1 {
+  .pri {
+    @include btn-style(white, $type1-br, $type1, transparent);
+  }
+}
+
+.type2 {
+  .pri {
+    @include btn-style(white, $type2-br, $type2, transparent);
+  }
+}
+
+.type3 {
+  .pri {
+    @include btn-style(white, $type3-br, $type3, transparent);
+  }
+}
+
+.type4 {
+  .pri {
+    @include btn-style(white, $type4-br, $type4, transparent);
+  }
+}
+
+.type5 {
+  .pri {
+    @include btn-style(white, $type5-br, $type5, transparent);
+  }
+}

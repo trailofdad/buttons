@@ -1,0 +1,32 @@
+{
+  "name": "buttons",
+  "version": "2.0.0",
+  "description": "Material design buttons using SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trailofdad/buttons.git"
+  },
+  "keywords": [
+    "Material",
+    "Design",
+    "Google",
+    "SASS",
+    "Clean",
+    "Minimal"
+  ],
+  "author": "Christian Hapgood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trailofdad/buttons/issues"
+  },
+  "homepage": "https://github.com/trailofdad/buttons#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

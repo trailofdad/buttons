@@ -1,0 +1,29 @@
+.type1 {
+  .sec {
+    @include btn-style($type1, $type1-br, white, $type1);
+  }
+}
+
+.type2 {
+  .sec {
+    @include btn-style($type2, $type2-br, white, $type2);
+  }
+}
+
+.type3 {
+  .sec {
+    @include btn-style($type3, $type3-br, white, $type3);
+  }
+}
+
+.type4 {
+  .sec {
+    @include btn-style($type4, $type4-br, white, $type4);
+  }
+}
+
+.type5 {
+  .sec {
+    @include btn-style($type5, $type5-br, white, $type5);
+  }
+}
